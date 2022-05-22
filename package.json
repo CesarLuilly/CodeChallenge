@@ -1,0 +1,27 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarLuilly/CodeChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarLuilly/CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/CesarLuilly/CodeChallenge#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "jest": "^26.1.0"
+  }
+}
