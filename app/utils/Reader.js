@@ -1,4 +1,5 @@
 const fs = require("fs");
+
 class Reader {
     static readJsonFile(path){
         //  //Read json file.

@@ -14,6 +14,9 @@
     "server": "node ./lib/server.js"
   },
 ```
+
+4.- Para ejecutar las pruebas tecleamos el siguiente comando `npm test`
+
 Requerimientos:
 1. Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
 2. Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación `haveCertification`.

@@ -13,3 +13,5 @@ class StudentService {
         return students.filter(studentItem => studentItem.credits > 500);
     }
 }
+
+module.exports = StudentService;
