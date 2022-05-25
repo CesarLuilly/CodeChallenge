@@ -5,7 +5,11 @@
 
 2.- Ejecutamos `npm install --save-dev jest`
 
-3.- Agregamos los siguientes script al package.json
+3.- Ejecutamos `npm install express --save`
+
+3.- Ejecutamos `npm install eslint --save-dev`
+
+4.- Agregamos los siguientes script al package.json
 ```
 "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js",
@@ -15,7 +19,7 @@
   },
 ```
 
-4.- Para ejecutar las pruebas tecleamos el siguiente comando `npm test`
+5.- Para ejecutar las pruebas tecleamos el siguiente comando `npm test`
 
 Requerimientos:
 1. Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
@@ -46,10 +50,16 @@ graph TD;
 
 2. Creo el test llamado StudentController.test.js con los test para cada uno de los metodos del controlador.
 
+1. Creo el file server.js y agrego los endpoint.
 
+1. Empiezo a correr el API. **Un dato curioso, si lo corro con diferentes comandos llega a pasar que no reconoce el archivo students.json**
 
+    - **OJO. server es el nombre del archivo que contiene los endpoint**
+    - Forma 1 Ejecutamos : `node server` dentro de la carpeta app 
+    ![Forma1](imgMd/curioso1.jpg) 
 
-
+    - Forma 2 Ejecutamos : `npm run server` dentro de la carpeta app
+    ![Forma2](imgMd/curioso2.jpg) 
 
 ## **Conclusiones. Apuntes propios**
 
