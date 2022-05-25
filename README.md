@@ -61,6 +61,19 @@ graph TD;
     - Forma 2 Ejecutamos : `npm run server` dentro de la carpeta app
     ![Forma2](imgMd/curioso2.jpg) 
 
+## Consultas a los endpoint. 
+1. Obtener todos los estudiantes `http://localhost:3000/v1/students/all`
+
+![endpoint1](imgMd/endpoint1.jpg)
+
+1. Obtener email de los estudiantes que tienen certificacion `http://localhost:3000/v1/students/Email/emailWithCertification`
+
+![endpoint1](imgMd/endpoint2.jpg)
+
+1. Obtener los estudiantes que tienen credito mayor que 500 `http://localhost:3000/v1/students/creditGreatherThan500`
+
+![endpoint1](imgMd/endpoint3.jpg)
+
 ## **Conclusiones. Apuntes propios**
 
 1. Por cada metodo dentro del archivo del **controlador** tiene su propio metodo dentro del archivo de **service**.
